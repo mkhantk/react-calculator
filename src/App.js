@@ -10,9 +10,9 @@ class App extends React.Component {
     return(
       <div id="external" className='flex justify-center items-center min-h-screen'>
         <div id='calculator' className='container w-[320px] h-[480px] bg-black ring-8 ring-black'>
-          <div id='display' className='h-1/6 '>
-            <div>0</div>
-            <div className='text-white'>0</div>
+          <div id='display' className='h-1/6 flex flex-col justify-around'>
+            <div id='num-history' className='text-orange-500 text-lg text-right' >0</div>
+            <div id='current-num' className='text-white text-2xl text-right'>0</div>
           </div>
           <div id='num-pad' className='flex flex-wrap w-full h-5/6'>
             <button id='clear' className='custom-button clear-btn' >AC</button>
