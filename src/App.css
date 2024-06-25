@@ -1,9 +1,9 @@
 .custom-button {
-  @apply w-1/4 h-1/5 bg-slate-400 border-2 border-black
+  @apply active:bg-orange-600 hover:text-white w-1/4 h-1/5 bg-slate-400 border border-black
 }
 
 .custom-button.clear-btn {
-  @apply w-2/4 h-1/5
+  @apply active:bg-slate-500 w-2/4 h-1/5 bg-orange-600
 }
 
 .custom-button.last-three {
@@ -15,5 +15,5 @@
 }
 
 .custom-button.equal-btn {
-  @apply h-2/5
+  @apply active:bg-slate-500 hover:text-white h-2/5 bg-indigo-800
 }
