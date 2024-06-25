@@ -1,0 +1,19 @@
+.custom-button {
+  @apply w-1/4 h-1/5 bg-slate-400 border-2 border-black
+}
+
+.custom-button.clear-btn {
+  @apply w-2/4 h-1/5
+}
+
+.custom-button.last-three {
+  @apply w-1/3 h-1/2
+}
+
+.custom-button.zero-btn {
+  @apply w-2/3 h-1/2
+}
+
+.custom-button.equal-btn {
+  @apply h-2/5
+}
