@@ -1,5 +1,5 @@
 .custom-button {
-  @apply active:bg-orange-600 hover:text-white w-1/4 h-1/5 bg-slate-400 border border-black
+  @apply active:bg-orange-600 hover:text-white w-1/4 h-1/5 bg-slate-400 border border-black font-body text-2xl
 }
 
 .custom-button.clear-btn {
